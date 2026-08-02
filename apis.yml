@@ -1,7 +1,27 @@
 aid: zeus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeus.png
 name: Zeus
-description: Zeus is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Zeus (Zeus Living) was a furnished and corporate housing rental startup
+  founded by Kulveer Taggar (previously co-founder of Auctomatic with Patrick
+  Collison). The company leased and managed furnished residences that it re-let
+  to business travelers, relocating employees, and companies needing flexible
+  medium-term housing, backed by investors including Bloomberg Beta. Zeus Living
+  has since wound down operations; its zeusliving.com domain no longer resolves
+  and it exposes no public developer portal, documentation, or API surface. This
+  profile was surfaced as a Bloomberg Beta portfolio company and enriched by the
+  API Evangelist pipeline, which confirmed no live API or web presence remains.
 url: https://raw.githubusercontent.com/api-evangelist/zeus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,27 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-founder: Kulveer Taggar
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Corporate Housing
+- Real Estate
+- Furnished Rentals
+- Property Technology
+- Travel
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
